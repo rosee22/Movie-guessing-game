@@ -15,6 +15,8 @@ Players can also delete their profile from the system if they want.
 
 This project demonstrates full-stack web development, combining frontend design, game logic, backend server handling, and database operations.
 
+
+
 🚀 Features
 
 🎮 Interactive Gameplay – Progressive hints reveal with decreasing score.
@@ -31,6 +33,8 @@ This project demonstrates full-stack web development, combining frontend design,
 
 🌐 Deployed Web Application – Hosted and accessible via URL.
 
+
+
 ✅ Tasks Completed
 Planning & Setup
 
@@ -39,6 +43,7 @@ Planning & Setup
  Designed database schema (movies + users tables).
 
  Documented system design and architecture.
+ 
 
 Database
 
@@ -47,6 +52,7 @@ Database
  Inserted sample movie records.
 
  Created users table to store player names.
+
 
 Frontend
 
@@ -63,7 +69,7 @@ getMovies.html – Random movie display
 guessMovie.html – Gameplay screen
 
  Designed CSS styles for dark theme, grids, and forms.
-
+ 
  Implemented JavaScript files:
 
 userform.js – POST username
@@ -73,6 +79,7 @@ dltuser.js – DELETE username
 script.js – GET movies & display
 
 guessMovie.js – Game logic, hints, score
+
 
 Backend
 
@@ -90,9 +97,12 @@ getMovies.php – Fetch movies as JSON
 
 Deployment
 
+
  Uploaded project to hosting server.
 
  Tested full flow from user creation → guessing → scoring → deleting user.
+
+ 
 
 🛠️ Technologies Used
 
