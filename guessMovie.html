@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Movie Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="guessMovie.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="app-name">Movie Guesser</div>
+        <div class="nav-options">
+            <a href="guesser.html"><i class="bx bx-notepad"></i></a>
+            <a href="score.html" id="score-link"><i class="bx bx-bar-chart-alt"></i></a>
+        </div>
+    </header>
+    <div id="game-container"> 
+      <h1>Guess the Name of the Movie!</h1><br>
+      <div class="guess-grid"id="guess">
+        <div id="Release_Year"></div>
+        <div id="Genre"></div>
+        <div id="Run_Time"></div>
+        <div id="Director"></div>
+        <div id="Cast"></div>
+        <div id="Plot"></div>
+    </div>
+        <div id = "dashed-movie-name"></div>
+        <input type="text" id="guess-input" placeholder="Enter a movie title">
+        <div id="guess-count"><h2 id="guess-remaining"></h2></div>
+        <button class="btnSubmit" id="guess-movie-submit">Submit</button>
+        <div id="result"></div>
+        <h2>Score: <span id="score"></span></h2>
+     
+    </div>
+</body>
+</html>

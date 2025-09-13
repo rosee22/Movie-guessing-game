@@ -1,0 +1,201 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+  }
+  
+  .app-name {
+    font-size: 24px;
+    font-weight: bold;
+    color:aliceblue;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  .nav-options {
+    font-size: 1.5rem;
+    display: flex;   /* Aligns icons in a row */
+    justify-content: center;  /* Centers them horizontally */
+    align-items: center;  /* Centers them vertically */
+    gap: 15px;  /* Adds spacing between icons */
+    color: white;
+  }
+  .nav-options i{
+    color: aliceblue;
+  }
+  
+  #game-container {
+    background-color: #1e1e1e;
+    padding: 50px;
+    margin: 50px auto;
+    width: 700px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  #game-container h1 {
+    font-size: 20px;
+    color: #61dafb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+  #game-container h2{
+    margin-bottom: 70px;
+  }
+  
+  #game-container p {
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  #guess-input {
+    width: 90%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #61dafb;
+    background: #2b2b2b;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btnSubmit {
+    background-color: #61dafb;
+    color: black;
+    margin-bottom: 60px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  /* Movie Grid */
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust columns */
+    gap: 40px;
+    padding: 60px;
+    max-width: 900px;
+    margin: auto;
+    color: rgb(11, 1, 1);
+  }
+  
+  
+  .movie-box {
+    background: #333;
+    padding: 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  .movie-box:hover {
+    background: #555;
+  }
+  
+  .score-container {
+    background-color: #2b2b2b;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+  
+  .score-item {
+    background: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .score-item p {
+    margin: 0;
+    font-size: 16px;
+  }
+#dashed-movie-name{
+      font-size: 30px;
+      transform: scale(2);
+  }
+  .guess-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjust columns */
+    gap: 60px;
+    padding: 35px;
+    max-width: 900px;
+    margin: auto;
+    color: rgb(238, 227, 227);
+  }
+  .start-game-link{
+    background-color: #756a6a;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+
+  .user-form-popup {
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+  }
+  .user-form-container .user-form-btn {
+    background-color: #5e6763;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  .user-form-container .user-form-btn:hover{
+    opacity: 1;
+  }
+  .user-text-box{
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 7px;
+}
+
+.basic-box {
+  width: 200px;
+  height: 100px;
+  border: 2px solid #000;
+  background-color: #f0f0f0;
+  padding: 10px;
+  color: rgb(86, 90, 86);
+  display: inline-block;
+}
